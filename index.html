@@ -11,11 +11,13 @@
 <body>
     <div style="background-color: gray;">
         <h1>Age Verification Website</h1>
-        <h3>Please enter your age below.</h3>
+        <h3>Please enter your age below to determine the ticket price.</h3>
     </div>
     <div style="text-align: center;">
         <input id="age" placeholder="Age">
-        <label for="age">years old</label>
+        <label for="age" style="color:white;">years old</label>
+        <button id="submit" style="color: white;" onclick="changeResult(determinePricing(document.getElementById('age').value))">Submit</button>
+        <p id="result"></p>
     </div>
 </body>
 </html>
