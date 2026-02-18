@@ -17,5 +17,5 @@ function determinePricing(age) {
     } else if (age >= 65) {
         return("You are considered a SENIOR and can enter at a discounted price.");
     } 
-    console.log("Reached the end of the for loop without determining a price");
+    console.log("Reached the end of the conditional without determining a price");
 }
