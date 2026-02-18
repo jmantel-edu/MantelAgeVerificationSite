@@ -1,0 +1,23 @@
+* {
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    color:white;
+    background-color: gray;
+    padding: 7px;
+}
+p {
+    text-align: center;
+    color:white;
+    background-color: rgb(25, 51, 42);
+}
